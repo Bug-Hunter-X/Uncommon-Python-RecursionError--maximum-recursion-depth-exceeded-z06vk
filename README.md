@@ -1,0 +1,1 @@
+This repository demonstrates a common yet easily overlooked error in Python: the RecursionError.  The `factorial` function, while correctly calculating factorials for non-negative integers, crashes when given a negative input due to unbounded recursion. The solution showcases how to handle this by adding a base case to explicitly prevent negative input.
